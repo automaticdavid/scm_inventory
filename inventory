@@ -1,15 +1,11 @@
----
-all:
-  children:
-    usa:
-      children:
-        southeast:
-          children:
-            atlanta:
-              hosts:
-                host1:
-                host2:
-            raleigh:
-              hosts:
-                host2:
-                host3:
+[atlanta]
+host1
+host2
+
+[raleigh]
+host2
+host3
+
+[southeast:children]
+atlanta
+raleigh
