@@ -1,0 +1,4 @@
+---
+# file: group_vars/raleigh
+ntp: ntp-raleigh.example.com
+backup: backup-raleigh.example.com
