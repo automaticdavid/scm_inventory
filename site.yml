@@ -1,0 +1,16 @@
+---
+- name: Create VMware Infrastructure
+  hosts: all
+  tasks:
+    - name: Display Value for backup
+      debug:
+        var: backup
+    - name: Display Value for ntp
+      debug:
+        var: ntp
+    - name: Display Value for foo_agent_port
+      debug:
+        var: foo_agent_port
+    - name: Display Value for bar_agent_port
+      debug:
+        var: bar_agent_port
