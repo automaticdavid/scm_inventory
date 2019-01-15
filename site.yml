@@ -5,12 +5,16 @@
     - name: Display Value for backup
       debug:
         var: backup
+      delegate_to: localhost
     - name: Display Value for ntp
       debug:
         var: ntp
+      delegate_to: localhost
     - name: Display Value for foo_agent_port
       debug:
         var: foo_agent_port
+      delegate_to: localhost
     - name: Display Value for bar_agent_port
       debug:
         var: bar_agent_port
+      delegate_to: localhost
