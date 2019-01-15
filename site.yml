@@ -1,6 +1,7 @@
 ---
 - name: Create VMware Infrastructure
   hosts: all
+  gather_facts: no
   tasks:
     - name: Display Value for backup
       debug:
